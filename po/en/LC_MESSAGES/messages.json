@@ -1,0 +1,220 @@
+{
+  "": {
+    "project_id_version": "switchboard-go 0.0.1", 
+    "report_msgid_bugs_to": "", 
+    "pot_creation_date": "2013-01-23 20:31+0200", 
+    "po_revision_date": "2013-01-23 20:36+0200", 
+    "last_translator": "Simon Cross <simon.cross@praekeltfoundation.org>", 
+    "language_team": "English", 
+    "language": "en", 
+    "mime_version": "1.0", 
+    "content_type": "text/plain; charset=UTF-8", 
+    "content_transfer_encoding": "8bit", 
+    "plural_forms": "nplurals=2; plural=(n != 1);", 
+    "x_poedit_language": "English"
+  }, 
+  "Back": [
+    null, 
+    "Back"
+  ], 
+  "Clinic": [
+    null, 
+    "Clinic"
+  ], 
+  "Council": [
+    null, 
+    "Council"
+  ], 
+  "Dispensary": [
+    null, 
+    "Dispensary"
+  ], 
+  "Do you agree to the terms and conditions as laid out at http://www.healthnetwork.or.tz ? Your local DMO will also have a copy.": [
+    null, 
+    "Do you agree to the terms and conditions as laid out at http://www.healthnetwork.or.tz ? Your local DMO will also have a copy."
+  ], 
+  "End Session": [
+    null, 
+    "End Session"
+  ], 
+  "Enter details again": [
+    null, 
+    "Enter details again"
+  ], 
+  "Health Centre": [
+    null, 
+    "Health Centre"
+  ], 
+  "Hospital": [
+    null, 
+    "Hospital"
+  ], 
+  "If u R a government Health Worker please enter the last 7-9 digits of Ur cheque no (eg 1234567). If U don't have a cheque no enter '0'": [
+    null, 
+    "If u R a government Health Worker please enter the last 7-9 digits of Ur cheque no (eg 1234567). If U don't have a cheque no enter '0'"
+  ], 
+  "If you would like to register at a later date please dial *149*24#.": [
+    null, 
+    "If you would like to register at a later date please dial *149*24#."
+  ], 
+  "Ministry of Health and Social Welfare": [
+    null, 
+    "Ministry of Health and Social Welfare"
+  ], 
+  "NGO": [
+    null, 
+    "NGO"
+  ], 
+  "No": [
+    null, 
+    "No"
+  ], 
+  "None of the above": [
+    null, 
+    "None of the above"
+  ], 
+  "Other": [
+    null, 
+    "Other"
+  ], 
+  "Please enter the official name of the facility where you primarily practice": [
+    null, 
+    "Please enter the official name of the facility where you primarily practice"
+  ], 
+  "Please enter your date of birth in the following format DDMMYYYY (eg if born on 23 April 1980, enter 23041980).": [
+    null, 
+    "Please enter your date of birth in the following format DDMMYYYY (eg if born on 23 April 1980, enter 23041980)."
+  ], 
+  "Please enter your email address or 0 if you do not have an email address": [
+    null, 
+    "Please enter your email address or 0 if you do not have an email address"
+  ], 
+  "Please enter your facility type:": [
+    null, 
+    "Please enter your facility type:"
+  ], 
+  "Please enter your first name.": [
+    null, 
+    "Please enter your first name."
+  ], 
+  "Please enter your specialty:": [
+    null, 
+    "Please enter your specialty:"
+  ], 
+  "Please enter your surname.": [
+    null, 
+    "Please enter your surname."
+  ], 
+  "Please re-enter your district:": [
+    null, 
+    "Please re-enter your district:"
+  ], 
+  "Please select a valid language.": [
+    null, 
+    "Please select a valid language."
+  ], 
+  "Please specify your CADRE:": [
+    null, 
+    "Please specify your CADRE:"
+  ], 
+  "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number.": [
+    null, 
+    "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number."
+  ], 
+  "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number.": [
+    null, 
+    "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number."
+  ], 
+  "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address.": [
+    null, 
+    "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address."
+  ], 
+  "Sorry but the registration number and DOB that you have entered do not match with MCT records.": [
+    null, 
+    "Sorry but the registration number and DOB that you have entered do not match with MCT records."
+  ], 
+  "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?": [
+    null, 
+    "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?"
+  ], 
+  "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register.": [
+    null, 
+    "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register."
+  ], 
+  "Sorry but you have not entered a valid date. Please enter your date of birth in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter 23041980).": [
+    null, 
+    "Sorry but you have not entered a valid date. Please enter your date of birth in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter 23041980)."
+  ], 
+  "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number.": [
+    null, 
+    "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number."
+  ], 
+  "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps.": [
+    null, 
+    "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps."
+  ], 
+  "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered.": [
+    null, 
+    "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered."
+  ], 
+  "Thank you for trying to register, we will contact you when the programme is available for your cadre.": [
+    null, 
+    "Thank you for trying to register, we will contact you when the programme is available for your cadre."
+  ], 
+  "Thank you for trying to register.": [
+    null, 
+    "Thank you for trying to register."
+  ], 
+  "Thank you. You have almost completed your registration process. Please dial *149*24# again to complete just a few more questions.": [
+    null, 
+    "Thank you. You have almost completed your registration process. Please dial *149*24# again to complete just a few more questions."
+  ], 
+  "The Facility you entered cannot be found. Did you mean:": [
+    null, 
+    "The Facility you entered cannot be found. Did you mean:"
+  ], 
+  "The district you entered cannot be found. Did you mean:": [
+    null, 
+    "The district you entered cannot be found. Did you mean:"
+  ], 
+  "To verify that u r a registered health worker enter your REGISTRATION No (eg 1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg no": [
+    null, 
+    "To verify that u r a registered health worker enter your REGISTRATION No (eg 1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg no"
+  ], 
+  "Training Institution": [
+    null, 
+    "Training Institution"
+  ], 
+  "View more": [
+    null, 
+    "View more"
+  ], 
+  "We are sorry but you cannot be registered unless you agree to the terms and conditions. Are you sure you would like to end the registration process?": [
+    null, 
+    "We are sorry but you cannot be registered unless you agree to the terms and conditions. Are you sure you would like to end the registration process?"
+  ], 
+  "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please.": [
+    null, 
+    "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please."
+  ], 
+  "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?": [
+    null, 
+    "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?"
+  ], 
+  "What CADRE are you?": [
+    null, 
+    "What CADRE are you?"
+  ], 
+  "Yes": [
+    null, 
+    "Yes"
+  ], 
+  "Your session has ended but you have not completed your registration. Please dial *149*24# again to continue with your registration where you left off.": [
+    null, 
+    "Your session has ended but you have not completed your registration. Please dial *149*24# again to continue with your registration where you left off."
+  ], 
+  "Zonal Training Centre": [
+    null, 
+    "Zonal Training Centre"
+  ]
+}

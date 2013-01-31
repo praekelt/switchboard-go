@@ -1,0 +1,17 @@
+{
+  "url": "http://example.com/api/health-workers",
+  "method": "POST",
+  "data": {
+    "country":"TZ",
+    "email":null,
+    "facility":null,
+    "language":"en",
+    "name":"New User",
+    "surname":"User",
+    "specialties":[2],
+    "vodacom_phone":"1234567"
+  },
+  "body": {
+    "status": 0
+  }
+}

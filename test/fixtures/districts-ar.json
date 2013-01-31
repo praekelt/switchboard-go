@@ -1,0 +1,25 @@
+{
+  "url": "http://example.com/api/regions?type=District&title=Ar&lang=en",
+  "method": "GET",
+  "body": {
+    "status": 0,
+    "regions": [
+      {
+        "parent_region_id": 8628,
+        "title": "Arusha DC",
+        "created_at": 1358308842.0,
+        "updated_at": 1358308842.0,
+        "type": "District",
+        "id": 8629
+      },
+      {
+        "parent_region_id": 8628,
+        "title": "Arusha MC",
+        "created_at": 1358308842.0,
+        "updated_at": 1358308842.0,
+        "type": "District",
+        "id": 8630
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "url": "http://example.com/api/facilities?title=Far&lang=en&type=4",
+  "method": "GET",
+  "body": {
+    "status": 0,
+    "facilities": [
+      {
+        "title": "Faraja",
+        "type": "Dispensary",
+        "region_id": 10552,
+        "id": 7405
+      },
+      {
+        "title": "Farkwa",
+        "type": "Dispensary",
+        "region_id": 13245,
+        "id": 9325
+      },
+      {
+        "title": "Farkwa",
+        "type": "Dispensary",
+        "region_id": 13245,
+        "id": 9326
+      },
+      {
+        "title": "Faraja",
+        "type": "Health Centre",
+        "region_id": 13955,
+        "id": 9883
+      }
+    ]
+  }
+}

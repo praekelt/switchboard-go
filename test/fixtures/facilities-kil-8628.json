@@ -1,0 +1,21 @@
+{
+  "url": "http://example.com/api/facilities?title=Kil&lang=en&region=8628",
+  "method": "GET",
+  "body": {
+    "status": 0,
+    "facilities": [
+      {
+        "region_id": 13559,
+        "title": "Kilimamoja",
+        "type": "Dispensary",
+        "id": 9593
+      },
+      {
+        "region_id": 13592,
+        "title": "Kilinga",
+        "type": "Dispensary",
+        "id": 9621
+      }
+    ]
+  }
+}

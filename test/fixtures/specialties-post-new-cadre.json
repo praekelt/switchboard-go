@@ -1,0 +1,14 @@
+{
+  "url": "http://example.com/api/specialties",
+  "method": "POST",
+  "data": {
+    "lang": "en",
+    "title": "New Cadre",
+    "msisdn": "1234567",
+    "parent_specialty": null
+  },
+  "body": {
+    "status": 0,
+    "id": 1234
+  }
+}

@@ -1,0 +1,16 @@
+Bulk Messaging
+==============
+
+[X] Messages sent
+[X] Message success rate (% of messages delivered successfully)
+
+USSD
+====
+
+[X] Number of 1st sessions completed - total and over time
+[X] USSD completed registrations - total and over time
+[X] Unique users - total and over time
+[X] USSD sessions - total and over time
+[X] % Sessions ending in timeout
+[X] Position in registration process where a user “drops-off” if registration not completed
+[X] USSD sessions per user needed to complete registration

@@ -1,0 +1,23 @@
+{
+  "url": "http://example.com/api/health-workers",
+  "method": "POST",
+  "data": {
+    "birthdate": {
+      "day":1,
+      "month":1,
+      "year":1997
+    },
+    "country":"TZ",
+    "email":null,
+    "facility":null,
+    "language":"en",
+    "mct_registration_number": "1234",
+    "name":"New User",
+    "surname":"User",
+    "specialties":[1],
+    "vodacom_phone":"1234567"
+  },
+  "body": {
+    "status": 0
+  }
+}

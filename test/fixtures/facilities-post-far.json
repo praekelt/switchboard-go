@@ -1,0 +1,16 @@
+{
+  "url": "http://example.com/api/facilities",
+  "method": "POST",
+  "data": {
+    "lang": "en",
+    "title": "Far",
+    "msisdn": "1234567",
+    "region": null,
+    "address": null,
+    "type": 4
+  },
+  "body": {
+    "status": 0,
+    "id": 12272
+  }
+}

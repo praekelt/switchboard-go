@@ -1,0 +1,27 @@
+{
+  "url": "http://example.com/api/mct-payrolls?check=1523120",
+  "method": "GET",
+  "body": {
+    "status": 0,
+    "total": 1,
+    "mct_payrolls": [
+      {
+        "last_name": "Surname",
+        "region_id": null,
+        "designation": "Medical Officer",
+        "health_worker_id": null,
+        "birthdate": {
+          "year": 1957,
+          "day": 12,
+          "month": 6
+        },
+        "facility_id": null,
+        "district": "Temeke",
+        "specialty_id": 59,
+        "check_number": "1523120",
+        "id": 3,
+        "name": "First Second Third"
+      }
+    ]
+  }
+}

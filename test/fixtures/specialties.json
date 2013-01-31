@@ -1,0 +1,644 @@
+{
+  "url": "http://example.com/api/specialties?lang=en",
+  "method": "GET",
+  "body": {
+    "status": 0,
+    "specialties": [
+      {
+        "parent_specialty_id": 3,
+        "title": "Adolescent medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 4
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Allergy and Immunology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 5
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Anesthesiology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "is_query_subspecialties": false,
+        "id": 2
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Assistant Clinical Officer",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "ACO",
+        "id": 66
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Assistant Medical Officer",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "AMO",
+        "id": 60
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Cardiology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 6
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Dermatology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 7
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Emergency medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 21
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Endocrinology, Diabetes & Metabolism",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 8
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Gastroenterology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 9
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "General Internal Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 3
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Geriatric Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 10
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Hematology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 11
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Hospice and Palliative Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 12
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Infectious Disease",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 13
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Medical Specialist",
+        "short_title": "MS",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "MS",
+        "is_query_subspecialties": true,
+        "id": 1
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Microbiology/Immunology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 22
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Nephrology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 14
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Neurology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 15
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Nuclear medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 23
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Oncology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 16
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Oncology and Hematology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 17
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Palliative medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 20
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Pulmonology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 18
+      },
+      {
+        "parent_specialty_id": 3,
+        "title": "Rheumatology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 19
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Pathology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 24
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Obstetrics & Gynecology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 25
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Ophthalmology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 26
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Orthopaedic Surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 27
+      },
+      {
+        "parent_specialty_id": 27,
+        "title": "Neurosurgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 28
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Otolaryngology (E.N.T.)",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 29
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "General Pediatrics",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 30
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Adolescent Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 31
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Allergy and Immunology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 32
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Cardiology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 33
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Critical Care Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 34
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Dermatology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 35
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Developmental and Behavioral Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 36
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Emergency Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 37
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Endocrinology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 38
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Gastroenterology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 39
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Genetics and Metabolism",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 40
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Hematology-Oncology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 41
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Neonatal-Perinatal Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 42
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Nephrology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 43
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Neurology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 44
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Pulmonary Medicine",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 45
+      },
+      {
+        "parent_specialty_id": 30,
+        "title": "Rheumatology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 46
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Psychiatry",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 47
+      },
+      {
+        "parent_specialty_id": 47,
+        "title": "Child/Adolescent Psychiatry",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 48
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "Radiology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 49
+      },
+      {
+        "parent_specialty_id": 1,
+        "title": "General surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 50
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Cardiac surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 51
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Neurosurgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 52
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Pediatric surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 53
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Plastic and Reconstructive Surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 54
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Surgical oncology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 55
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Thoracic surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 56
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Urology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 57
+      },
+      {
+        "parent_specialty_id": 50,
+        "title": "Vascular surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 58
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Medical Officer",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "MO",
+        "id": 59
+      },
+      {
+        "parent_specialty_id": 60,
+        "title": "General",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 61
+      },
+      {
+        "parent_specialty_id": 60,
+        "title": "Anaesthesiology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 62
+      },
+      {
+        "parent_specialty_id": 60,
+        "title": "Ophthalmology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 63
+      },
+      {
+        "parent_specialty_id": 60,
+        "title": "Dermatology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 64
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Clinical Officer",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "CO",
+        "id": 65
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Dental Specialist",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "DS",
+        "id": 67
+      },
+      {
+        "parent_specialty_id": 67,
+        "title": "Maxilofacial surgery",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 68
+      },
+      {
+        "parent_specialty_id": 67,
+        "title": "Oral pathology",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 69
+      },
+      {
+        "parent_specialty_id": 67,
+        "title": "Restorative dentistry",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 70
+      },
+      {
+        "parent_specialty_id": 70,
+        "title": "Periodontist",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 71
+      },
+      {
+        "parent_specialty_id": 70,
+        "title": "Prosthodontist",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 72
+      },
+      {
+        "parent_specialty_id": 70,
+        "title": "Endodontist",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 73
+      },
+      {
+        "parent_specialty_id": 67,
+        "title": "Pediatric dentistry",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 74
+      },
+      {
+        "parent_specialty_id": 67,
+        "title": "Orthodontist",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 75
+      },
+      {
+        "parent_specialty_id": 67,
+        "title": "Community dentistry",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": null,
+        "id": 76
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Dental Officer",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "DO",
+        "id": 77
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Assistant Dental Officer",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "ADO",
+        "id": 78
+      },
+      {
+        "parent_specialty_id": null,
+        "title": "Dental Therapist",
+        "created_at": 1356300633.0,
+        "updated_at": 1358226368.0,
+        "abbreviation": "DT",
+        "id": 79
+      }
+    ]
+  }
+}

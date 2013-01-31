@@ -1,0 +1,216 @@
+{
+  "": {
+    "project_id_version": "switchboard-go 0.0.1", 
+    "report_msgid_bugs_to": "", 
+    "pot_creation_date": "2013-01-23 20:31+0200", 
+    "po_revision_date": "2013-01-24 08:04+0200", 
+    "last_translator": "Simon Cross <simon.cross@praekeltfoundation.org>", 
+    "language_team": "Swahili", 
+    "language": "sw", 
+    "mime_version": "1.0", 
+    "content_type": "text/plain; charset=UTF-8", 
+    "content_transfer_encoding": "8bit", 
+    "plural_forms": "nplurals=2; plural=(n != 1)", 
+    "x_poedit_language": "Swahili"
+  }, 
+  "Back": [
+    null, 
+    "Rudi nyuma"
+  ], 
+  "Clinic": [
+    null, 
+    "Kliniki"
+  ], 
+  "Council": [
+    null, 
+    "Halmashauri"
+  ], 
+  "Dispensary": [
+    null, 
+    "Zahanati"
+  ], 
+  "Do you agree to the terms and conditions as laid out at http://www.healthnetwork.or.tz ? Your local DMO will also have a copy.": [
+    null, 
+    "Unakubaliana na masharti kama yalivyo kwenye tofuti http://www.healthnetwork.or.tz ? Mganga mkuu wa wilaya yako pia atakuwa na nakala."
+  ], 
+  "End Session": [
+    null, 
+    "Achia hapa"
+  ], 
+  "Enter details again": [
+    null, 
+    "Ingiza tena vielelezo"
+  ], 
+  "Health Centre": [
+    null, 
+    "Kituo cha Afya"
+  ], 
+  "Hospital": [
+    null, 
+    "Hospitali"
+  ], 
+  "If u R a government Health Worker please enter the last 7-9 digits of Ur cheque no (eg 1234567). If U don't have a cheque no enter '0'": [
+    null, 
+    "Ukiwa ni mtumishi wa serikali, ingiza tarakimu 7-9 za namba ya cheki (km 1234567). Ingiza '0' kama huna namba ya cheki"
+  ], 
+  "If you would like to register at a later date please dial *149*24#.": [
+    null, 
+    "Ukitaka kujisajili siku nyingine, tafadhali piga simu *149*24#"
+  ], 
+  "Ministry of Health and Social Welfare": [
+    null, 
+    "Wizara ya Afya na Ustawi wa Jamii"
+  ], 
+  "NGO": [
+    null, 
+    "Asasi isiyo ya Serikali"
+  ], 
+  "No": [
+    null, 
+    "Hapana"
+  ], 
+  "None of the above": [
+    null, 
+    "Sio yo yote kati a hizo"
+  ], 
+  "Other": [
+    null, 
+    "Aina Nyingine"
+  ], 
+  "Please enter the official name of the facility where you primarily practice": [
+    null, 
+    "Tafadhali ingiza jina halali la kituo unapofanya kazi"
+  ], 
+  "Please enter your date of birth in the following format DDMMYYYY (eg if born on 23 April 1980, enter 23041980).": [
+    null, 
+    "Tafadhali ingiza tarehe yako ya kuzaliwa: (km ikiwa ni 23 Aprili 1980, ingiza 23041980)"
+  ], 
+  "Please enter your email address or 0 if you do not have an email address": [
+    null, 
+    "Tafadhali ingiza anwani yako ya barua pepe au '0' kama huna anwani ya barua pepe"
+  ], 
+  "Please enter your facility type:": [
+    null, 
+    "Tafadhali ingiza aina ya kituo chako:"
+  ], 
+  "Please enter your first name.": [
+    null, 
+    "Tafadhali ingiza jina lako la kwanza"
+  ], 
+  "Please enter your specialty:": [
+    null, 
+    "Tafadhali ingiza fani yako ya taaluma:"
+  ], 
+  "Please enter your surname.": [
+    null, 
+    "Tafadhali ingiza jina lako la ukoo"
+  ], 
+  "Please re-enter your district:": [
+    null, 
+    "Tafadhali ingiza tena jina la wilaya yako"
+  ], 
+  "Please specify your CADRE:": [
+    null, 
+    "Tafadhali chagua kundi lako:"
+  ], 
+  "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number.": [
+    null, 
+    "Samahani, hiyo sio namba sahihi ya usajili. Jaribu tena au ingiza '0' kama huna namba ya usajili."
+  ], 
+  "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number.": [
+    null, 
+    "Samahani, namba hiyo sio sahihi. Jaribu tena au ingiza '0' kama huna namba ya cheki."
+  ], 
+  "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address.": [
+    null, 
+    "Samahani, anwani hiyo si sahihi. Jaribu tena au ingiza '0' kama huna anwani ya barua pepe"
+  ], 
+  "Sorry but the registration number and DOB that you have entered do not match with MCT records.": [
+    null, 
+    "Samahani, namba ya usajili na tarehe ya kuzaliwa havifanani na taarifa za usajili zillizopo."
+  ], 
+  "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?": [
+    null, 
+    "Samahani, huduma hii bado haipatikani kwa kundi lako. Utapenda tukujulishe wakati itakapopatikana?"
+  ], 
+  "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register.": [
+    null, 
+    "Samahani hatuwezi kuthibitisha taarifa zako kwa sasa. Tafadhai hakikisha taarifa zako na Baraza la Madaktari na baadaye piga *149*24# kujisajili"
+  ], 
+  "Sorry but you have not entered a valid date. Please enter your date of birth in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter 23041980).": [
+    null, 
+    "Samahahi, ulichoingiza sio tarehe sahihi. Tafadhali ingiza tarehe yako ya kuzaliwa: (km ikiwa ni 23 Aprili 1980, ingiza 23041980)"
+  ], 
+  "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number.": [
+    null, 
+    "Samahani. Huduma hii ni kwa watumishi wa Afya wenye kadi za Vodacom tu. Tafadhali andikisha kadi mpya ya Vodacom na jaribu tena baadaye."
+  ], 
+  "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps.": [
+    null, 
+    "Aksante kwa kuanza kujiandikisha. Piga tena *149*24# ili umalizie usajili kwa njia fupi na rahisi."
+  ], 
+  "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered.": [
+    null, 
+    "Aksante kwa kujisajili kwenye Mtandao wa Afya. Tutashughulikia usajili wako na kukujulisha usajili wako utakapothibitishwa na Baraza."
+  ], 
+  "Thank you for trying to register, we will contact you when the programme is available for your cadre.": [
+    null, 
+    "Asante kwa kujaribu kujisajili. Tutakujulisha pindi kada yako itakapo ingizwa kwenye programu hii."
+  ], 
+  "Thank you for trying to register.": [
+    null, 
+    "Asante kwa kujaribu kujisajili."
+  ], 
+  "Thank you. You have almost completed your registration process. Please dial *149*24# again to complete just a few more questions.": [
+    null, 
+    "Aksante. Karibu unamaliza kujisajili. Tafadhali piga *149*24# kumalizia maswali machache yaliyobaki."
+  ], 
+  "The Facility you entered cannot be found. Did you mean:": [
+    null, 
+    "Kituo ulichoingiza hakipo. Ulimaanisha:"
+  ], 
+  "The district you entered cannot be found. Did you mean:": [
+    null, 
+    "Wilaya uliyoingiza haipo. Ulimaanisha:"
+  ], 
+  "To verify that u r a registered health worker enter your REGISTRATION No (eg 1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg no": [
+    null, 
+    "Ingiza namba yako ya usajili (k.m. 1234) kutoka Baraza la Madaktari la Tanganyika au ingiza '0' kama huna namba ya usajili"
+  ], 
+  "Training Institution": [
+    null, 
+    "Chuo"
+  ], 
+  "View more": [
+    null, 
+    "Onyesha aina nyingine"
+  ], 
+  "We are sorry but you cannot be registered unless you agree to the terms and conditions. Are you sure you would like to end the registration process?": [
+    null, 
+    "Tunasikitika huwezi kusajiliwa ikiwa hukubaliani na masharti.Unauhakika ya kuwa unapenda kuacha kujisajili?"
+  ], 
+  "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please.": [
+    null, 
+    "Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW ikishirikiana na Switchboard na Vodacom.\n\nIngiza jina la wilaya yako (km Kilosa). Usifupishe jina."
+  ], 
+  "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?": [
+    null, 
+    "Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW ikishirikiana Switchboard na Vodacom.\n\nUnapendelea lugha ipi?"
+  ], 
+  "What CADRE are you?": [
+    null, 
+    "Wewe ni kada lipi?"
+  ], 
+  "Yes": [
+    null, 
+    "Ndiyo"
+  ], 
+  "Your session has ended but you have not completed your registration. Please dial *149*24# again to continue with your registration where you left off.": [
+    null, 
+    "Muda wako umekwisha lakini bado hujamaliza usajili. Tafadhali piga *149*24# kuendelea kujisajili pale ulipoishia."
+  ], 
+  "Zonal Training Centre": [
+    null, 
+    "Kituo cha Kanda cha Mafunzo"
+  ]
+}

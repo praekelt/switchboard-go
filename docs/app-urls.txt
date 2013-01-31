@@ -1,0 +1,6 @@
+javascript
+  https://raw.github.com/praekelt/switchboard-go/develop/lib/switchboard-ussd.js
+translation.en
+  https://raw.github.com/praekelt/switchboard-go/develop/po/en/LC_MESSAGES/messages.json
+translation.sw
+  https://raw.github.com/praekelt/switchboard-go/develop/po/sw/LC_MESSAGES/messages.json

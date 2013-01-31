@@ -1,0 +1,44 @@
+{
+  "url": "http://example.com/api/mct-registrations?registration=3320",
+  "method": "GET",
+  "body": {
+    "status": 0,
+    "total": 1,
+    "health_workers": [
+      {
+        "qualification_specialization_2": "Phd",
+        "file_number": "12B/87/123",
+        "facility": null,
+        "dates_of_registration_full": "11/1/2001",
+        "updated_at": 1355301233.0,
+        "id": 1,
+        "category": "Full",
+        "qualification_provisional": "",
+        "qualification_specialization_1": "MSc",
+        "employer_during_internship": "",
+        "qualification_final": "MD (1992)",
+        "email": null,
+        "registration_type": "F",
+        "specialty": "Parasitology",
+        "address": "P.O.Box 1112, Filo",
+        "dates_of_registration_provisional": "",
+        "name": "A Lo Lo",
+        "country": null,
+        "created_at": 1356301513.0,
+        "birthdate": {
+          "month": 1,
+          "day": 9,
+          "year": 1971
+        },
+        "specialty_duration": "",
+        "cadre": "MS",
+        "specialties": [
+          1
+        ],
+        "dates_of_registration_temporary": "",
+        "current_employer": "",
+        "registration_number": "3320"
+      }
+    ]
+  }
+}
