@@ -2,8 +2,8 @@
   "": {
     "project_id_version": "switchboard-go 0.0.1", 
     "report_msgid_bugs_to": "", 
-    "pot_creation_date": "2013-01-23 20:31+0200", 
-    "po_revision_date": "2013-01-23 20:36+0200", 
+    "pot_creation_date": "2013-02-02 12:16+0200", 
+    "po_revision_date": "2013-02-02 12:17+0200", 
     "last_translator": "Simon Cross <simon.cross@praekeltfoundation.org>", 
     "language_team": "English", 
     "language": "en", 
@@ -36,6 +36,10 @@
   "End Session": [
     null, 
     "End Session"
+  ], 
+  "English": [
+    null, 
+    "English"
   ], 
   "Enter details again": [
     null, 
@@ -149,13 +153,17 @@
     null, 
     "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number."
   ], 
+  "Swahili": [
+    null, 
+    "Swahili"
+  ], 
   "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps.": [
     null, 
     "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps."
   ], 
-  "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered.": [
+  "Thank you for registering with The Health Network Programme. We will verify your registration within 2 weeks and confirm by SMS when you can make free calls.": [
     null, 
-    "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered."
+    "Thank you for registering with The Health Network Programme. We will verify your registration within 2 weeks and confirm by SMS when you can make free calls."
   ], 
   "Thank you for trying to register, we will contact you when the programme is available for your cadre.": [
     null, 
@@ -197,9 +205,9 @@
     null, 
     "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please."
   ], 
-  "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?": [
+  "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\nWhat language would you like to use?": [
     null, 
-    "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?"
+    "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\nWhat language would you like to use?"
   ], 
   "What CADRE are you?": [
     null, 

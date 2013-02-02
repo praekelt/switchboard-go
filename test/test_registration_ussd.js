@@ -156,8 +156,8 @@ describe("test_ussd_states_for_session_1", function() {
     it("intro state should respond", function() {
         check_state({current_state: "intro"}, null, "intro",
             "^Welcome to the Health Network brought to you by" +
-            " Switchboard, the Ministry of Health and Vodacom.[^][^]" +
-            "What language would you like to use\?[^][^]" +
+            " Switchboard, the Ministry of Health and Vodacom.[^]" +
+            "What language would you like to use\\?[^]" +
             "1. Swahili[^]" +
             "2. English$"
         );
@@ -504,7 +504,7 @@ describe("test_en_translation", function() {
     it("intro state should respond with translated text", function() {
         check_state({current_state: "intro", lang: "en"}, null, "intro",
             "^Welcome to the Health Network brought to you by" +
-            " Switchboard, the Ministry of Health and Vodacom.[^][^]" +
+            " Switchboard, the Ministry of Health and Vodacom.[^]" +
             "What language would you like to use\?",
             function (api) {
                 api.config_store["translation.en"] = locale_data.en;
@@ -524,8 +524,8 @@ describe("test_sw_translation", function() {
     it("intro state should respond with translated text", function() {
         check_state({current_state: "intro", lang: "sw"}, null, "intro",
             "^Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW" +
-            " ikishirikiana Switchboard na Vodacom.[^][^]" +
-            "Unapendelea lugha ipi\?",
+            " ikishirikiana Switchboard na Vodacom.[^]" +
+            "Unapendelea lugha ipi\\?",
             function (api) {
                 api.config_store["translation.sw"] = locale_data.sw;
             }
@@ -838,12 +838,14 @@ describe("test_sms_sending", function() {
         tester.check_state(
             user,
             "1", "session2_end",
-            "Thank you for registering with The Health Network Programme. We will process" +
-            " your registration and confirm with you when you are registered.",
+            "Thank you for registering with The Health Network Programme." +
+            " We will verify your registration within 2 weeks and confirm by" +
+            " SMS when you can make free calls.",
             null,
-            assert_single_sms("Thank you for registering with The Health Network Programme." +
-                              " We will process your registration and confirm with you when" +
-                              " you are registered.")
+            assert_single_sms("Thank you for registering with The Health" +
+                              " Network Programme. We will verify your" +
+                              " registration within 2 weeks and confirm by" +
+                              " SMS when you can make free calls.")
         );
     });
 
