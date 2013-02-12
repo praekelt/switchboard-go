@@ -41,7 +41,7 @@ function maybe_call(f, that, args) {
 }
 
 function check_state(user, content, next_state, expected_response, setup,
-                     teardown) {
+                     teardown, session_event) {
     // setup api
     var api = fresh_api();
     var from_addr = "1234567";
@@ -55,12 +55,15 @@ function check_state(user, content, next_state, expected_response, setup,
     });
 
     // send message
+    session_event = ((typeof session_event != 'undefined')
+                     ? session_event : "continue");
     api.on_inbound_message({
         cmd: "inbound-message",
         msg: {
             from_addr: from_addr,
             content: content,
-            message_id: "123"
+            message_id: "123",
+            session_event: session_event
         }
     });
 
@@ -135,10 +138,11 @@ function CustomTester(custom_setup, custom_teardown) {
     };
 
     self.check_state = function(user, content, next_state, expected_response,
-                                setup, teardown) {
+                                setup, teardown, session_event) {
         return check_state(user, content, next_state, expected_response,
                            self._combine_setup(custom_setup, setup),
-                           self._combine_teardown(custom_teardown, teardown));
+                           self._combine_teardown(custom_teardown, teardown),
+                           session_event);
     };
 
     self.check_close = function(user, next_state, setup, teardown) {
@@ -867,6 +871,59 @@ describe("test_sms_sending", function() {
             function (api) {
                 assert.deepEqual(api.outbound_sends, []);
             }
+        );
+    });
+});
+
+describe("test_metrics_firing", function() {
+    var tester = new CustomTester();
+
+    var assert_metric = function(metric, agg, values) {
+        var teardown = function(api) {
+            var store = api.metrics['default'];
+            assert.ok(store[metric]);
+            assert.equal(store[metric].agg, agg);
+            assert.deepEqual(store[metric].values, values);
+        };
+        return teardown;
+    };
+
+    it("should fire a metric at the end of the first session", function () {
+        tester.check_state(
+            {current_state: "terms_and_conditions"},
+            "1", "session1_end",
+            "", null,
+            assert_metric("first_session_completed", "max", [1])
+        );
+    });
+    it("should fire a metric at the end of the second session", function() {
+        var user = {
+            current_state: "facility_select",
+            answers: {cadre: "mo"}
+        };
+        tester.check_state(
+            user,
+            "1", "session2_end",
+            "", null,
+            assert_metric("second_session_completed", "max", [1])
+        );
+    });
+    it("new user should fire a metric", function() {
+        tester.check_state(
+            {}, null, "intro", "",
+            function (api) {
+                var user_key = "users.1234567";
+                delete api.kv_store[user_key];
+            },
+            assert_metric("unique_users", "max", [1])
+        );
+
+    });
+    it("new session should fire a metric", function() {
+        tester.check_state(
+            {}, null, "intro", "", null,
+            assert_metric("ussd_sessions", "max", [1]),
+            "new"
         );
     });
 });
