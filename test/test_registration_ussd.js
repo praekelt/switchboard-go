@@ -641,8 +641,10 @@ describe("test_switchboard_api", function() {
             "Far",
             "facility_select",
             "^The Facility you entered cannot be found. Did you mean:[^]*" +
-            "1. Faraja Dispensary[^]" +
-            "2. Farkwa Dispensary[^]*" +
+            "1. Faraja[^]" +
+            "2. Farkwa Ilala[^]" +
+            "3. Farkwa Mkombwe[^]" +
+            "4. Faraja[^]" +
             "5. None of the above$"
         );
     });
