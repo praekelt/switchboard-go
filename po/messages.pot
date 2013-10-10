@@ -254,13 +254,3 @@ msgstr ""
 msgid "Please enter your specialty:"
 msgstr ""
 
-#: standard input:1083
-msgid ""
-"Please enter your email address or 0 if you do not have an email address"
-msgstr ""
-
-#: standard input:1087
-msgid ""
-"Sorry but that is not a valid email address. Please try again or enter 0 if "
-"you do not have an email address."
-msgstr ""

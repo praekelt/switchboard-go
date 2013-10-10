@@ -300,20 +300,6 @@ msgstr "The Facility you entered cannot be found. Did you mean:"
 msgid "Please enter your specialty:"
 msgstr "Please enter your specialty:"
 
-#: standard input:1083
-msgid ""
-"Please enter your email address or 0 if you do not have an email address"
-msgstr ""
-"Please enter your email address or 0 if you do not have an email address"
-
-#: standard input:1087
-msgid ""
-"Sorry but that is not a valid email address. Please try again or enter 0 if "
-"you do not have an email address."
-msgstr ""
-"Sorry but that is not a valid email address. Please try again or enter 0 if "
-"you do not have an email address."
-
 #~ msgid "Thank you and goodbye!"
 #~ msgstr "Thank you and goodbye!"
 

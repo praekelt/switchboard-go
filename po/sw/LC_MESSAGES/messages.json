@@ -81,10 +81,6 @@
     null, 
     "Tafadhali ingiza jina halali la kituo unapofanya kazi"
   ], 
-  "Please enter your email address or 0 if you do not have an email address": [
-    null, 
-    "Tafadhali ingiza anwani yako ya barua pepe au '0' kama huna anwani ya barua pepe"
-  ], 
   "Please enter your facility type:": [
     null, 
     "Tafadhali ingiza aina ya kituo chako:"
@@ -120,10 +116,6 @@
   "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number.": [
     null, 
     "Samahani, namba hiyo sio sahihi. Jaribu tena au ingiza '0' kama huna namba ya cheki."
-  ], 
-  "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address.": [
-    null, 
-    "Samahani, anwani hiyo si sahihi. Jaribu tena au ingiza '0' kama huna anwani ya barua pepe"
   ], 
   "Sorry but the registration number that you entered does not match with MCT records.": [
     null, 

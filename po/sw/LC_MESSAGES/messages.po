@@ -297,21 +297,6 @@ msgstr "Kituo ulichoingiza hakipo. Ulimaanisha:"
 msgid "Please enter your specialty:"
 msgstr "Tafadhali ingiza fani yako ya taaluma:"
 
-#: standard input:1083
-msgid ""
-"Please enter your email address or 0 if you do not have an email address"
-msgstr ""
-"Tafadhali ingiza anwani yako ya barua pepe au '0' kama huna anwani ya barua "
-"pepe"
-
-#: standard input:1087
-msgid ""
-"Sorry but that is not a valid email address. Please try again or enter 0 if "
-"you do not have an email address."
-msgstr ""
-"Samahani, anwani hiyo si sahihi. Jaribu tena au ingiza '0' kama huna anwani "
-"ya barua pepe"
-
 #~ msgid "more"
 #~ msgstr "Onyesha fani zaidi"
 
