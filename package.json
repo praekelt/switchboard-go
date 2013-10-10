@@ -1,13 +1,13 @@
 {
   "name": "switchboard-go",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "A Vumi Go USSD application for registering health workers.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "vumigo_v01": "0.1.x"
+    "vumigo_v01": "0.5.0-dev"
   },
   "devDependencies": {
     "mocha": "~1.7.1"
@@ -25,7 +25,17 @@
     "tanzania",
     "switchboard"
   ],
-  "author": "Praekelt Foundation <dev@praekeltfoundation.org>",
+  "author": "Switchboard <hello@switchboard.org>",
+  "contributors": [ 
+    {
+      "name": "Simon Cross",
+      "email": "simon.cross@praekeltfoundation.org"
+    },
+    {
+      "name": "Matt Olson",
+      "email": "molson@rubycloud.com"
+    } 
+  ],
   "license": "BSD",
   "readmeFilename": "README"
 }
