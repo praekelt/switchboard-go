@@ -3,7 +3,6 @@
   "method": "POST",
   "data": {
     "country":"TZ",
-    "email":null,
     "facility":7405,
     "language":"en",
     "name":"New User",

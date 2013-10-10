@@ -155,13 +155,13 @@ function CustomTester(custom_setup, custom_teardown) {
 
 describe("test_ussd_states_for_session_1", function() {
     it("new users should see the intro state", function () {
-        check_state(null, null, "intro", "^Welcome to the Health");
+        check_state(null, null, "intro", "^Welcome to the Health Network.");
     });
     it("intro state should respond", function() {
         check_state({current_state: "intro"}, null, "intro",
-            "^Welcome to the Health Network brought to you by" +
-            " Switchboard, the Ministry of Health and Vodacom.[^]" +
-            "What language would you like to use\\?[^]" +
+            "^Welcome to the Health Network. FREE calls brought to U by Switchboard," +
+            " Ministry of Health, MAT and Vodacom.[^]" +
+            "Please choose a language[^]" +
             "1. Swahili[^]" +
             "2. English$"
         );
@@ -192,20 +192,17 @@ describe("test_ussd_states_for_session_1", function() {
             "6\\. Back$"
         );
     });
-    it("reply 1 to cadre should go to cheque_number", function () {
-        check_state({current_state: "cadre"}, "1", "cheque_number",
-            "^If u R a government Health Worker please enter the last" +
-            " 7-9 digits of Ur cheque no \\(eg 1234567\\)." +
-            " If U don't have a cheque no enter '0'$"
-        );
+    it("reply 1 to cadre should go to first_name", function () {
+        check_state({current_state: "cadre"}, "1", "first_name");
     });
-    it("reply 10 to cadre should go to cadre_other", function () {
+    it("reply 5 to cadre should go to cadre_other", function () {
         check_state({current_state: "cadre", pages: {cadre: 5}},
                     "5", "cadre_other",
-                    "^Please specify your CADRE:$"
+                    "^Please write the name of your CADRE or enter '0' to " +
+                    "return to the list of CADRES:$"
         );
     });
-    it("cadre_other should go to cadre_unavailable", function () {
+    it("reply foo to cadre_other should go to cadre_unavailable", function () {
         check_state({current_state: "cadre_other"}, "foo", "cadre_unavailable",
             "^Sorry but this service is not yet available for your CADRE.",
             null,
@@ -213,6 +210,9 @@ describe("test_ussd_states_for_session_1", function() {
                 assert.equal(user.answers.cadre_other, "foo");
             }
         );
+    });
+    it("reply 0 to cadre_other should go back to cadre", function () {
+        check_state({current_state: "cadre_other"}, "0", "cadre");
     });
     it("cadre_unavailable should store cadre on yes", function () {
         check_state({current_state: "cadre_unavailable"}, "1",
@@ -222,21 +222,42 @@ describe("test_ussd_states_for_session_1", function() {
         check_state({current_state: "cadre_unavailable"}, "2",
                     "cadre_unavailable_dont_contact");
     });
+    it("cadre_unavailable should go back to cadre on back", function () {
+        check_state({current_state: "cadre_unavailable"}, "3", "cadre");
+    });
     it("cadre_unavailable_contact should return to intro", function () {
         check_state({current_state: "cadre_unavailable_contact"}, "foo",
                     "intro",
-                    "^Welcome to the Health Network brought to you by"
+                    "^Welcome to the Health Network."
         );
     });
     it("cadre_unavailable_dont_contact should return to intro", function () {
         check_state({current_state: "cadre_unavailable_dont_contact"}, "foo",
                     "intro",
-                    "^Welcome to the Health Network brought to you by"
+                    "^Welcome to the Health Network."
         );
+    });
+    it("first_name should accept free text", function () {
+        check_state({current_state: "first_name"}, "whee",
+                    "surname", "^", null,
+                    function (api, user) {
+                        assert.equal(user.answers.first_name, "whee");
+                    });
+    });
+    it("surname should accept free text and go to cheque_number", function () {
+        check_state({current_state: "surname"}, "whoa",
+                    "cheque_number", 
+                    "^To verify U are a government worker enter last 7-9 digits of your cheque no " +
+                    "\\(eg 1234567\\). Enter '0' if U do not have a cheque no or are not a government " +
+                    "worker$",
+                    null,
+                    function (api, user) {
+                        assert.equal(user.answers.surname, "whoa");
+                    });
     });
     it("cheque_number should store valid input", function () {
         check_state({current_state: "cheque_number"}, "1234567",
-                    "first_name", "^", null,
+                    "terms_and_conditions", "^", null,
                     function (api, user) {
                         assert.equal(user.answers.cheque_number,
                                      "1234567");
@@ -250,19 +271,18 @@ describe("test_ussd_states_for_session_1", function() {
     it("cheque_number should skip on 0", function () {
         check_state({current_state: "cheque_number"}, "0",
                     "registration_number",
-                    "^To verify that u r a registered health worker enter" +
-                    " your REGISTRATION No \\(eg 1234\\) from Medical" +
-                    " Council of Tanganyika or enter '0' if u do not have" +
-                    " a reg no$",
+                    "^To verify U are a registered health worker enter your Medical Council of " +
+                    "Tanganyika REGISTRATION # \\(eg 1234\\). Enter '0' if U do not have a " +
+                    "Registration Number$",
                     null,
                     function (api, user) {
                         assert.equal(user.answers.cheque_number,
                                      "0");
                     });
     });
-    it("registration_number should accept valid input", function () {
+    it("registration_number should accept valid input and go to terms_and_conditions", function () {
         check_state({current_state: "registration_number"}, "1234",
-                    "first_name", "^", null,
+                    "terms_and_conditions", "^", null,
                     function (api, user) {
                         assert.equal(user.answers.registration_number,
                                      "1234");
@@ -272,20 +292,9 @@ describe("test_ussd_states_for_session_1", function() {
         check_state({current_state: "registration_number"}, "123456",
                     "registration_number");
     });
-    it("reply 0 to registration_number should go to first_name",
-       function () {
-           check_state({current_state: "registration_number"}, "0",
-                       "first_name",
-                       "^Please enter your first name."
-        );
-    });
-    it("date_of_birth should accept valid input", function () {
-        check_state({current_state: "date_of_birth"}, "31011996",
-                    "first_name");
-    });
-    it("date_of_birth should reject invalid input", function () {
-        check_state({current_state: "date_of_birth"}, "32011996",
-                    "date_of_birth");
+    it("registration_number should skip on 0", function () {
+        check_state({current_state: "registration_number"}, "0",
+                    "terms_and_conditions");
     });
     it("dont_match_mct should go to cheque_number on 1", function () {
         check_state({current_state: "dont_match_mct"}, "1",
@@ -298,20 +307,6 @@ describe("test_ussd_states_for_session_1", function() {
     it("dont_match_mct_end should return to intro", function () {
         check_state({current_state: "dont_match_mct_end"}, "1",
                     "intro", "^");
-    });
-    it("first_name should accept free text", function () {
-        check_state({current_state: "first_name"}, "whee",
-                    "surname", "^", null,
-                    function (api, user) {
-                        assert.equal(user.answers.first_name, "whee");
-                    });
-    });
-    it("surname should accept free text", function () {
-        check_state({current_state: "surname"}, "whoa",
-                    "terms_and_conditions", "^", null,
-                    function (api, user) {
-                        assert.equal(user.answers.surname, "whoa");
-                    });
     });
     it("reply foo to terms_and_conditions should redisplay state", function() {
         check_state({current_state: "terms_and_conditions"}, "foo",
@@ -471,30 +466,6 @@ describe("test_ussd_states_for_session_2", function() {
         };
         check_state(user, "1", "session2_end");
     });
-    it("email state should accept valid input and end", function () {
-        var user = {
-            current_state: "email",
-            answers: {
-                date_of_birth: "12011996"
-            }
-        };
-        check_state(user, "foo@example.com", "session2_end",
-            "^Thank you for registering with The Health Network Programme.*$"
-        );
-    });
-    it("email state should accept 0 and end", function() {
-        var user = {
-            current_state: "email",
-            answers: {
-                date_of_birth: "12011996"
-            }
-        };
-        check_state(user, "0", "session2_end");
-    });
-    it("email state should reject invalid input", function () {
-       check_state({current_state: "email"}, "foo@bar",
-                   "email");
-    });
     it("session2_end should remain in session2_end", function () {
         var user = {
             current_state: "session2_end",
@@ -507,15 +478,15 @@ describe("test_ussd_states_for_session_2", function() {
 describe("test_en_translation", function() {
     it("intro state should respond with translated text", function() {
         check_state({current_state: "intro", lang: "en"}, null, "intro",
-            "^Welcome to the Health Network brought to you by" +
-            " Switchboard, the Ministry of Health and Vodacom.[^]" +
-            "What language would you like to use\?",
+            "^Welcome to the Health Network. FREE calls brought to U by Switchboard, " +
+            "Ministry of Health, MAT and Vodacom.[^]" +
+            "Please choose a language",
             function (api) {
                 api.config_store["translation.en"] = locale_data.en;
             }
         );
     });
-    it("intro state should respond with translated cadre", function() {
+    it("cadre state should respond with translated cadre", function() {
         check_state({current_state: "intro"}, "2", "cadre",
                     "^What CADRE are you",
                     function (api) {
@@ -527,15 +498,15 @@ describe("test_en_translation", function() {
 describe("test_sw_translation", function() {
     it("intro state should respond with translated text", function() {
         check_state({current_state: "intro", lang: "sw"}, null, "intro",
-            "^Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW" +
-            " ikishirikiana Switchboard na Vodacom.[^]" +
-            "Unapendelea lugha ipi\\?",
+            "^Karibu Mtandao wa Afya. Upigaji BURE wa simu unaletwa " + 
+            "kwako na Switchboard, Wizara ya Afya, MAT na Vodacom.[^]" +
+            "Tafadhali chagua lugha",
             function (api) {
                 api.config_store["translation.sw"] = locale_data.sw;
             }
         );
     });
-    it("intro state should respond with translated cadre", function() {
+    it("cadre state should respond with translated cadre", function() {
         check_state({current_state: "intro"}, "1", "cadre",
                     "^Wewe ni kada lipi\?",
                     function (api) {
@@ -712,29 +683,6 @@ describe("test_switchboard_api", function() {
             "6. View more$"
         );
     });
-    it.skip("date of birth should be checked (registration number)",
-            function() {
-        // currently disabled at SwB's request.
-        tester.check_state(
-            {
-                current_state: "date_of_birth",
-                answers: {registration_number: "3320"}
-            },
-            "09011971",
-            "first_name"
-        );
-    });
-    it.skip("date of birth should be checked (cheque number)", function() {
-        // currently disabled at SwB's request.
-        tester.check_state(
-            {
-                current_state: "date_of_birth",
-                answers: {cheque_number: "1523120"}
-            },
-            "12061957",
-            "first_name"
-        );
-    });
     it("unknown cadres should be submitted", function() {
         tester.check_state(
             {
@@ -761,23 +709,6 @@ describe("test_switchboard_api", function() {
                 }
             },
             "5",
-            "session2_end"
-        );
-    });
-    it("health worker should be registered", function() {
-        tester.check_state(
-            {
-                current_state: "email",
-                answers: {
-                    cadre: 1,
-                    district_select: null,
-                    date_of_birth: "01011997",
-                    first_name: "New",
-                    surname: "User",
-                    registration_number: "1234"
-                }
-            },
-            "0",
             "session2_end"
         );
     });
