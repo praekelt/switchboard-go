@@ -7,7 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "vumigo_v01": "0.1.x"
+    "vumigo_v01": "0.1.x",
+    "jed": "0.5.x"
   },
   "devDependencies": {
     "mocha": "~1.7.1"
