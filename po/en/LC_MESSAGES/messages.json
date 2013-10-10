@@ -121,9 +121,9 @@
     null, 
     "Sorry but the registration number that you entered does not match with MCT records."
   ], 
-  "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?": [
+  "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?": [
     null, 
-    "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?"
+    "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?"
   ], 
   "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register.": [
     null, 

@@ -30,6 +30,8 @@ function reset_im(im) {
 function fresh_api() {
     var api = app.api;
     api.reset();
+    api.config_store["translation.en"] = locale_data.en;
+    api.config_store["translation.sw"] = locale_data.sw;
     reset_im(api.im);
     return api;
 }
@@ -42,6 +44,12 @@ function maybe_call(f, that, args) {
 
 function check_state(user, content, next_state, expected_response, setup,
                      teardown, session_event) {
+
+    // Add lang if not present
+    if (user != null && typeof user.lang === 'undefined') {
+      user.lang = 'en';
+    }
+
     // setup api
     var api = fresh_api();
     var from_addr = "1234567";
@@ -477,21 +485,15 @@ describe("test_ussd_states_for_session_2", function() {
 
 describe("test_en_translation", function() {
     it("intro state should respond with translated text", function() {
-        check_state({current_state: "intro", lang: "en"}, null, "intro",
+        check_state({current_state: "intro"}, null, "intro",
             "^Welcome to the Health Network. FREE calls brought to U by Switchboard, " +
             "Ministry of Health, MAT and Vodacom.[^]" +
-            "Please choose a language",
-            function (api) {
-                api.config_store["translation.en"] = locale_data.en;
-            }
+            "Please choose a language"
         );
     });
     it("cadre state should respond with translated cadre", function() {
         check_state({current_state: "intro"}, "2", "cadre",
-                    "^What CADRE are you",
-                    function (api) {
-                        api.config_store["translation.en"] = locale_data.en;
-                    });
+                    "^What CADRE are you");
     });
 });
 
@@ -500,18 +502,12 @@ describe("test_sw_translation", function() {
         check_state({current_state: "intro", lang: "sw"}, null, "intro",
             "^Karibu Mtandao wa Afya. Upigaji BURE wa simu unaletwa " + 
             "kwako na Switchboard, Wizara ya Afya, MAT na Vodacom.[^]" +
-            "Tafadhali chagua lugha",
-            function (api) {
-                api.config_store["translation.sw"] = locale_data.sw;
-            }
+            "Tafadhali chagua lugha"
         );
     });
     it("cadre state should respond with translated cadre", function() {
         check_state({current_state: "intro"}, "1", "cadre",
-                    "^Wewe ni kada lipi\?",
-                    function (api) {
-                        api.config_store["translation.sw"] = locale_data.sw;
-                    });
+                    "^Wewe ni kada lipi\?");
     });
 });
 

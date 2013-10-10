@@ -123,8 +123,8 @@ msgstr ""
 
 #: standard input:720
 msgid ""
-"Sorry but this service is not yet available for your CADRE. Would you like "
-"us to contact you if this service becomes available for you in the future?"
+"Sorry, this service is not yet available for your CADRE. Would you like "
+"us to contact you when this service becomes available for you?"
 msgstr ""
 
 #: standard input:722 input:830 input:843
