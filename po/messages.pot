@@ -1,272 +1,256 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translations for HealthWorker registration app
+# Copyright (C) 2013 Switchboard International
+# This file is distributed under the same license as the switchboard-go package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: switchboard-go 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-23 20:31+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2013-02-02 12:16+0200\n"
+"PO-Revision-Date: 2013-10-09 18:48-0800\n"
+"Last-Translator: Matt Olson <molson@rubycloud.com>\n"
+"Language-Team: Translators <hello@switchboard.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
-#: standard input:1013
+#: standard input:102
 msgid "Hospital"
 msgstr ""
 
-#: standard input:1014
+#: standard input:103
 msgid "Health Centre"
 msgstr ""
 
-#: standard input:1015
+#: standard input:104
 msgid "Dispensary"
 msgstr ""
 
-#: standard input:1016
+#: standard input:105
 msgid "Clinic"
 msgstr ""
 
-#: standard input:1017
+#: standard input:106
 msgid "Ministry of Health and Social Welfare"
 msgstr ""
 
-#: standard input:1018
+#: standard input:107
 msgid "Council"
 msgstr ""
 
-#: standard input:1019
+#: standard input:108
 msgid "Training Institution"
 msgstr ""
 
-#: standard input:1020
+#: standard input:109
 msgid "Zonal Training Centre"
 msgstr ""
 
-#: standard input:1021
+#: standard input:110
 msgid "NGO"
 msgstr ""
 
-#: standard input:1438 standard input:1719
+#: standard input:553 input:849
 msgid "If you would like to register at a later date please dial *149*24#."
 msgstr ""
 
-#: standard input:1444
+#: standard input:559
 msgid ""
 "Thank you for beginning your registration process. Please dial *149*24# "
 "again to complete your registration in a few easy steps."
 msgstr ""
 
-#: standard input:1450
+#: standard input:565 input:1123
+msgid ""
+"Thank you for registering with The Health Network Programme. We will verify "
+"your registration within 2 weeks and confirm by SMS when you can make free "
+"calls."
+msgstr ""
+
+#: standard input:571
 msgid ""
 "Your session has ended but you have not completed your registration. Please "
 "dial *149*24# again to continue with your registration where you left off."
 msgstr ""
 
-#: standard input:1535
+#: standard input:657
 msgid ""
-"Welcome to the Health Network brought to you by Switchboard, the Ministry of "
-"Health and Vodacom.\n"
-"\n"
-"What language would you like to use?"
+"Welcome to the Health Network. FREE calls brought to U by Switchboard, "
+"Ministry of Health, MAT and Vodacom.\n"
+"Please choose a language"
 msgstr ""
 
-#: standard input:1540
+#: standard input:659
+msgid "Swahili"
+msgstr ""
+
+#: standard input:660
+msgid "English"
+msgstr ""
+
+#: standard input:662
 msgid "Please select a valid language."
 msgstr ""
 
-#: standard input:1544
+#: standard input:666
 msgid ""
 "Sorry. This service is only available to Health Practitioners with a Vodacom "
 "Sim card. Please register a new Vodacom SIM and then redial this number."
 msgstr ""
 
-#: standard input:1556 standard input:1809 standard input:1921
+#: standard input:678 input:948 input:1062
 msgid "Other"
 msgstr ""
 
-#: standard input:1564
+#: standard input:686
 msgid "What CADRE are you?"
 msgstr ""
 
-#: standard input:1567 standard input:1786 standard input:1816
-#: standard input:1902 standard input:1928
+#: standard input:689 input:925 input:955 input:1043 input:1070
 msgid "View more"
 msgstr ""
 
-#: standard input:1568 standard input:1787 standard input:1817
-#: standard input:1903 standard input:1929
+#: standard input:690 input:926 input:956 input:1044 input:1071
 msgid "Back"
 msgstr ""
 
-#: standard input:1579
-msgid "Please specify your CADRE:"
-msgstr ""
-
-#: standard input:1598
+#: standard input:701
 msgid ""
-"Sorry but this service is not yet available for your CADRE. Would you like "
-"us to contact you if this service becomes available for you in the future?"
+"Please write the name of your CADRE or enter '0' to return to the list of "
+"CADRES:"
 msgstr ""
 
-#: standard input:1600 standard input:1700 standard input:1713
+#: standard input:720
+msgid ""
+"Sorry, this service is not yet available for your CADRE. Would you like "
+"us to contact you when this service becomes available for you?"
+msgstr ""
+
+#: standard input:722 input:830 input:843
 msgid "Yes"
 msgstr ""
 
-#: standard input:1601 standard input:1701 standard input:1714
+#: standard input:723 input:831 input:844
 msgid "No"
 msgstr ""
 
-#: standard input:1606
+#: standard input:728
 msgid ""
 "Thank you for trying to register, we will contact you when the programme is "
 "available for your cadre."
 msgstr ""
 
-#: standard input:1611
+#: standard input:733 input:738
 msgid "Thank you for trying to register."
 msgstr ""
 
-#: standard input:1620
+#: standard input:748
 msgid ""
-"If u R a government Health Worker please enter the last 7-9 digits of Ur "
-"cheque no (eg 1234567). If U don't have a cheque no enter '0'"
+"To verify U are a government worker enter last 7-9 digits of your cheque no "
+"(eg 1234567). Enter '0' if U do not have a cheque no or are not a government "
+"worker"
 msgstr ""
 
-#: standard input:1624
+#: standard input:752
 msgid ""
-"Sorry but that is not a valid cheque number. Please try again of enter '0' "
+"Sorry but that is not a valid cheque number. Please try again or enter '0' "
 "if you do not have a cheque number."
 msgstr ""
 
-#: standard input:1629
+#: standard input:758
 msgid ""
-"To verify that u r a registered health worker enter your REGISTRATION No (eg "
-"1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg "
-"no"
+"To verify U are a registered health worker enter your Medical Council of "
+"Tanganyika REGISTRATION # (eg 1234). Enter '0' if U do not have a "
+"Registration Number"
 msgstr ""
 
-#: standard input:1633
+#: standard input:762
 msgid ""
 "Sorry but that is not a valid Registration Number. Please try again or enter "
 "0 if you do not have a registration number."
 msgstr ""
 
-#: standard input:1649
+#: standard input:800
 msgid ""
-"Please enter your date of birth in the following format DDMMYYYY (eg if born "
-"on 23 April 1980, enter 23041980)."
+"Sorry but the registration number that you entered does not match with MCT "
+"records."
 msgstr ""
 
-#: standard input:1661
-msgid ""
-"Sorry but you have not entered a valid date. Please enter your date of birth "
-"in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter "
-"23041980)."
-msgstr ""
-
-#: standard input:1670
-msgid ""
-"Sorry but the registration number and DOB that you have entered do not match "
-"with MCT records."
-msgstr ""
-
-#: standard input:1672
+#: standard input:802
 msgid "Enter details again"
 msgstr ""
 
-#: standard input:1673
+#: standard input:803
 msgid "End Session"
 msgstr ""
 
-#: standard input:1678
+#: standard input:808
 msgid ""
 "Sorry but we cannot verify you at this point. Please verify your details "
 "with MCT and dial *149*24# again to register."
 msgstr ""
 
-#: standard input:1684
+#: standard input:814
 msgid "Please enter your first name."
 msgstr ""
 
-#: standard input:1689
+#: standard input:819
 msgid "Please enter your surname."
 msgstr ""
 
-#: standard input:1698
+#: standard input:828
 msgid ""
 "Do you agree to the terms and conditions as laid out at http://www."
 "healthnetwork.or.tz ? Your local DMO will also have a copy."
 msgstr ""
 
-#: standard input:1711
+#: standard input:841
 msgid ""
 "We are sorry but you cannot be registered unless you agree to the terms and "
 "conditions. Are you sure you would like to end the registration process?"
 msgstr ""
 
-#: standard input:1729
+#: standard input:859
 msgid ""
 "Thank you. You have almost completed your registration process. Please dial "
 "*149*24# again to complete just a few more questions."
 msgstr ""
 
-#: standard input:1759
+#: standard input:891
 msgid ""
-"Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry "
-"of Health and Vodacom.\n"
+"Welcome back 2 the Health Network brought 2 U by Switchboard, Ministry "
+"of Health, MAT and Vodacom.\n"
 "\n"
-"Please enter your district (eg Kilosa). No abbreviations please."
+"Please enter Ur district (eg Kilosa). No abbreviations please."
 msgstr ""
 
-#: standard input:1773 standard input:1873
+#: standard input:912 input:1013
 msgid "None of the above"
 msgstr ""
 
-#: standard input:1783
+#: standard input:922
 msgid "The district you entered cannot be found. Did you mean:"
 msgstr ""
 
-#: standard input:1798
+#: standard input:937
 msgid "Please re-enter your district:"
 msgstr ""
 
-#: standard input:1813
+#: standard input:952
 msgid "Please enter your facility type:"
 msgstr ""
 
-#: standard input:1859
+#: standard input:999
 msgid ""
 "Please enter the official name of the facility where you primarily practice"
 msgstr ""
 
-#: standard input:1899
+#: standard input:1040
 msgid "The Facility you entered cannot be found. Did you mean:"
 msgstr ""
 
-#: standard input:1925
+#: standard input:1067
 msgid "Please enter your specialty:"
 msgstr ""
 
-#: standard input:1940
-msgid ""
-"Please enter your email address or 0 if you do not have an email address"
-msgstr ""
-
-#: standard input:1944
-msgid ""
-"Sorry but that is not a valid email address. Please try again or enter 0 if "
-"you do not have an email address."
-msgstr ""
-
-#: standard input:1971
-msgid ""
-"Thank you for registering with The Health Network Programme. We will process "
-"your registration and confirm with you when you are registered."
-msgstr ""

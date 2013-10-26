@@ -1,17 +1,17 @@
 {
   "": {
-    "project_id_version": "switchboard-go 0.0.1", 
+    "project_id_version": "switchboard-go 0.2.0", 
     "report_msgid_bugs_to": "", 
-    "pot_creation_date": "2013-01-23 20:31+0200", 
-    "po_revision_date": "2013-01-23 20:36+0200", 
-    "last_translator": "Simon Cross <simon.cross@praekeltfoundation.org>", 
+    "pot_creation_date": "2013-02-02 12:16+0200", 
+    "po_revision_date": "2013-10-25 22:31-0800", 
+    "last_translator": "Matt Olson <molson@rubycloud.com>", 
     "language_team": "English", 
     "language": "en", 
     "mime_version": "1.0", 
     "content_type": "text/plain; charset=UTF-8", 
     "content_transfer_encoding": "8bit", 
     "plural_forms": "nplurals=2; plural=(n != 1);", 
-    "x_poedit_language": "English"
+    "x_generator": "Poedit 1.5.7"
   }, 
   "Back": [
     null, 
@@ -37,6 +37,10 @@
     null, 
     "End Session"
   ], 
+  "English": [
+    null, 
+    "English"
+  ], 
   "Enter details again": [
     null, 
     "Enter details again"
@@ -48,10 +52,6 @@
   "Hospital": [
     null, 
     "Hospital"
-  ], 
-  "If u R a government Health Worker please enter the last 7-9 digits of Ur cheque no (eg 1234567). If U don't have a cheque no enter '0'": [
-    null, 
-    "If u R a government Health Worker please enter the last 7-9 digits of Ur cheque no (eg 1234567). If U don't have a cheque no enter '0'"
   ], 
   "If you would like to register at a later date please dial *149*24#.": [
     null, 
@@ -81,14 +81,6 @@
     null, 
     "Please enter the official name of the facility where you primarily practice"
   ], 
-  "Please enter your date of birth in the following format DDMMYYYY (eg if born on 23 April 1980, enter 23041980).": [
-    null, 
-    "Please enter your date of birth in the following format DDMMYYYY (eg if born on 23 April 1980, enter 23041980)."
-  ], 
-  "Please enter your email address or 0 if you do not have an email address": [
-    null, 
-    "Please enter your email address or 0 if you do not have an email address"
-  ], 
   "Please enter your facility type:": [
     null, 
     "Please enter your facility type:"
@@ -113,49 +105,45 @@
     null, 
     "Please select a valid language."
   ], 
-  "Please specify your CADRE:": [
+  "Please write the name of your CADRE or enter '0' to return to the list of CADRES:": [
     null, 
-    "Please specify your CADRE:"
+    "Please write the name of your CADRE or enter '0' to return to the list of CADRES:"
   ], 
   "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number.": [
     null, 
     "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number."
   ], 
-  "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number.": [
+  "Sorry but that is not a valid cheque number. Please try again or enter '0' if you do not have a cheque number.": [
     null, 
-    "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number."
+    "Sorry but that is not a valid cheque number. Please try again or enter '0' if you do not have a cheque number."
   ], 
-  "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address.": [
+  "Sorry but the registration number that you entered does not match with MCT records.": [
     null, 
-    "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address."
-  ], 
-  "Sorry but the registration number and DOB that you have entered do not match with MCT records.": [
-    null, 
-    "Sorry but the registration number and DOB that you have entered do not match with MCT records."
-  ], 
-  "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?": [
-    null, 
-    "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?"
+    "Sorry but the registration number that you entered does not match with MCT records."
   ], 
   "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register.": [
     null, 
     "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register."
   ], 
-  "Sorry but you have not entered a valid date. Please enter your date of birth in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter 23041980).": [
+  "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?": [
     null, 
-    "Sorry but you have not entered a valid date. Please enter your date of birth in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter 23041980)."
+    "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?"
   ], 
   "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number.": [
     null, 
     "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number."
   ], 
+  "Swahili": [
+    null, 
+    "Swahili"
+  ], 
   "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps.": [
     null, 
     "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps."
   ], 
-  "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered.": [
+  "Thank you for registering with The Health Network Programme. We will verify your registration within 2 weeks and confirm by SMS when you can make free calls.": [
     null, 
-    "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered."
+    "Thank you for registering with The Health Network Programme. We will verify your registration within 2 weeks and confirm by SMS when you can make free calls."
   ], 
   "Thank you for trying to register, we will contact you when the programme is available for your cadre.": [
     null, 
@@ -177,9 +165,13 @@
     null, 
     "The district you entered cannot be found. Did you mean:"
   ], 
-  "To verify that u r a registered health worker enter your REGISTRATION No (eg 1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg no": [
+  "To verify U are a government worker enter last 7-9 digits of your cheque no (eg 1234567). Enter '0' if U do not have a cheque no or are not a government worker": [
     null, 
-    "To verify that u r a registered health worker enter your REGISTRATION No (eg 1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg no"
+    "To verify U are a government worker enter last 7-9 digits of your cheque no (eg 1234567). Enter '0' if U do not have a cheque no or are not a government worker"
+  ], 
+  "To verify U are a registered health worker enter your Medical Council of Tanganyika REGISTRATION # (eg 1234). Enter '0' if U do not have a Registration Number": [
+    null, 
+    "To verify U are a registered health worker enter your Medical Council of Tanganyika REGISTRATION # (eg 1234). Enter '0' if U do not have a Registration Number"
   ], 
   "Training Institution": [
     null, 
@@ -193,13 +185,13 @@
     null, 
     "We are sorry but you cannot be registered unless you agree to the terms and conditions. Are you sure you would like to end the registration process?"
   ], 
-  "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please.": [
+  "Welcome back 2 the Health Network brought 2 U by Switchboard, Ministry of Health, MAT and Vodacom.\n\nPlease enter Ur district (eg Kilosa). No abbreviations please.": [
     null, 
-    "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please."
+    "Welcome back 2 the Health Network brought 2 U by Switchboard, Ministry of Health, MAT and Vodacom.\n\nPlease enter Ur district (eg Kilosa). No abbreviations please."
   ], 
-  "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?": [
+  "Welcome to the Health Network. FREE calls brought to U by Switchboard, Ministry of Health, MAT and Vodacom.\nPlease choose a language": [
     null, 
-    "Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n\nWhat language would you like to use?"
+    "Welcome to the Health Network. FREE calls brought to U by Switchboard, Ministry of Health, MAT and Vodacom.\nPlease choose a language"
   ], 
   "What CADRE are you?": [
     null, 

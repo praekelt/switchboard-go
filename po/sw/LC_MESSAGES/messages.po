@@ -5,250 +5,297 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: switchboard-go 0.0.1\n"
+"Project-Id-Version: switchboard-go 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-23 20:31+0200\n"
-"PO-Revision-Date: 2013-01-24 08:04+0200\n"
-"Last-Translator: Simon Cross <simon.cross@praekeltfoundation.org>\n"
+"POT-Creation-Date: 2013-02-02 12:16+0200\n"
+"PO-Revision-Date: 2013-10-25 22:45-0800\n"
+"Last-Translator: Matt Olson <molson@rubycloud.com>\n"
 "Language-Team: Swahili\n"
 "Language: sw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Poedit-Language: Swahili\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
-#: standard input:1013
+#: standard input:102
 msgid "Hospital"
 msgstr "Hospitali"
 
-#: standard input:1014
+#: standard input:103
 msgid "Health Centre"
 msgstr "Kituo cha Afya"
 
-#: standard input:1015
+#: standard input:104
 msgid "Dispensary"
 msgstr "Zahanati"
 
-#: standard input:1016
+#: standard input:105
 msgid "Clinic"
 msgstr "Kliniki"
 
-#: standard input:1017
+#: standard input:106
 msgid "Ministry of Health and Social Welfare"
 msgstr "Wizara ya Afya na Ustawi wa Jamii"
 
-#: standard input:1018
+#: standard input:107
 msgid "Council"
 msgstr "Halmashauri"
 
-#: standard input:1019
+#: standard input:108
 msgid "Training Institution"
 msgstr "Chuo"
 
-#: standard input:1020
+#: standard input:109
 msgid "Zonal Training Centre"
 msgstr "Kituo cha Kanda cha Mafunzo"
 
-#: standard input:1021
+#: standard input:110
 msgid "NGO"
 msgstr "Asasi isiyo ya Serikali"
 
-#: standard input:1438
-#: input:1719
+#: standard input:553 input:849
 msgid "If you would like to register at a later date please dial *149*24#."
 msgstr "Ukitaka kujisajili siku nyingine, tafadhali piga simu *149*24#"
 
-#: standard input:1444
-msgid "Thank you for beginning your registration process. Please dial *149*24# again to complete your registration in a few easy steps."
-msgstr "Aksante kwa kuanza kujiandikisha. Piga tena *149*24# ili umalizie usajili kwa njia fupi na rahisi."
-
-#: standard input:1450
-msgid "Your session has ended but you have not completed your registration. Please dial *149*24# again to continue with your registration where you left off."
-msgstr "Muda wako umekwisha lakini bado hujamaliza usajili. Tafadhali piga *149*24# kuendelea kujisajili pale ulipoishia."
-
-#: standard input:1535
+#: standard input:559
 msgid ""
-"Welcome to the Health Network brought to you by Switchboard, the Ministry of Health and Vodacom.\n"
-"\n"
-"What language would you like to use?"
+"Thank you for beginning your registration process. Please dial *149*24# "
+"again to complete your registration in a few easy steps."
 msgstr ""
-"Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW ikishirikiana Switchboard na Vodacom.\n"
-"\n"
-"Unapendelea lugha ipi?"
+"Aksante kwa kuanza kujiandikisha. Piga tena *149*24# ili umalizie usajili "
+"kwa njia fupi na rahisi."
 
-#: standard input:1540
+#: standard input:565 input:1123
+msgid ""
+"Thank you for registering with The Health Network Programme. We will verify "
+"your registration within 2 weeks and confirm by SMS when you can make free "
+"calls."
+msgstr ""
+"Asante kwa kujisajili kwenye huduma hii ya Mtandao wa Watumishi wa Afya."
+"Ndani ya wiki 2 tutakujulisha kwa njia ya meseji kama umeunganishwa kwenye "
+"mtandao huu."
+
+#: standard input:571
+msgid ""
+"Your session has ended but you have not completed your registration. Please "
+"dial *149*24# again to continue with your registration where you left off."
+msgstr ""
+"Muda wako umekwisha lakini bado hujamaliza usajili. Tafadhali piga *149*24# "
+"kuendelea kujisajili pale ulipoishia."
+
+#: standard input:657
+msgid ""
+"Welcome to the Health Network. FREE calls brought to U by Switchboard, "
+"Ministry of Health, MAT and Vodacom.\n"
+"Please choose a language"
+msgstr ""
+"Karibu Mtandao wa Afya. Upigaji BURE wa simu unaletwa kwako na Wizara ya "
+"Afya, Switchboard, MAT na Vodacom.\n"
+"Tafadhali chagua lugha"
+
+#: standard input:659
+msgid "Swahili"
+msgstr "Kiswahili"
+
+#: standard input:660
+msgid "English"
+msgstr "Kiingereza"
+
+#: standard input:662
 msgid "Please select a valid language."
+msgstr "Tafadhali chagua lugha uipendayo."
+
+#: standard input:666
+msgid ""
+"Sorry. This service is only available to Health Practitioners with a Vodacom "
+"Sim card. Please register a new Vodacom SIM and then redial this number."
 msgstr ""
+"Samahani. Huduma hii ni kwa watumishi wa Afya wenye kadi za Vodacom tu. "
+"Tafadhali andikisha kadi mpya ya Vodacom na jaribu tena baadaye."
 
-#: standard input:1544
-msgid "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number."
-msgstr "Samahani. Huduma hii ni kwa watumishi wa Afya wenye kadi za Vodacom tu. Tafadhali andikisha kadi mpya ya Vodacom na jaribu tena baadaye."
-
-#: standard input:1556
-#: input:1809
-#: input:1921
+#: standard input:678 input:948 input:1062
 msgid "Other"
 msgstr "Aina Nyingine"
 
-#: standard input:1564
+#: standard input:686
 msgid "What CADRE are you?"
 msgstr "Wewe ni kada lipi?"
 
-#: standard input:1567
-#: input:1786
-#: input:1816
-#: input:1902
-#: input:1928
+#: standard input:689 input:925 input:955 input:1043 input:1070
 msgid "View more"
 msgstr "Onyesha aina nyingine"
 
-#: standard input:1568
-#: input:1787
-#: input:1817
-#: input:1903
-#: input:1929
+#: standard input:690 input:926 input:956 input:1044 input:1071
 msgid "Back"
 msgstr "Rudi nyuma"
 
-#: standard input:1579
-msgid "Please specify your CADRE:"
-msgstr "Tafadhali chagua kundi lako:"
+#: standard input:701
+msgid ""
+"Please write the name of your CADRE or enter '0' to return to the list of "
+"CADRES:"
+msgstr ""
+"Tafadhali andika jina la kundi lako au bonyeza '0' kurudi kwenye orodha ya "
+"makundi:"
 
-#: standard input:1598
-msgid "Sorry but this service is not yet available for your CADRE. Would you like us to contact you if this service becomes available for you in the future?"
-msgstr "Samahani, huduma hii bado haipatikani kwa kundi lako. Utapenda tukujulishe wakati itakapopatikana?"
+#: standard input:720
+msgid ""
+"Sorry, this service is not yet available for your CADRE. Would you like us "
+"to contact you when this service becomes available for you?"
+msgstr ""
+"Samahani, huduma hii bado haipatikani kwa kundi lako. Utapenda tukujulishe "
+"wakati itakapopatikana?"
 
-#: standard input:1600
-#: input:1700
-#: input:1713
+#: standard input:722 input:830 input:843
 msgid "Yes"
 msgstr "Ndiyo"
 
-#: standard input:1601
-#: input:1701
-#: input:1714
+#: standard input:723 input:831 input:844
 msgid "No"
 msgstr "Hapana"
 
-#: standard input:1606
-msgid "Thank you for trying to register, we will contact you when the programme is available for your cadre."
-msgstr "Asante kwa kujaribu kujisajili. Tutakujulisha pindi kada yako itakapo ingizwa kwenye programu hii."
+#: standard input:728
+msgid ""
+"Thank you for trying to register, we will contact you when the programme is "
+"available for your cadre."
+msgstr ""
+"Asante kwa kujaribu kujisajili. Tutakujulisha pindi kada yako itakapo "
+"ingizwa kwenye programu hii."
 
-#: standard input:1611
+#: standard input:733 input:738
 msgid "Thank you for trying to register."
 msgstr "Asante kwa kujaribu kujisajili."
 
-#: standard input:1620
-msgid "If u R a government Health Worker please enter the last 7-9 digits of Ur cheque no (eg 1234567). If U don't have a cheque no enter '0'"
-msgstr "Ukiwa ni mtumishi wa serikali, ingiza tarakimu 7-9 za namba ya cheki (km 1234567). Ingiza '0' kama huna namba ya cheki"
+#: standard input:748
+msgid ""
+"To verify U are a government worker enter last 7-9 digits of your cheque no "
+"(eg 1234567). Enter '0' if U do not have a cheque no or are not a government "
+"worker"
+msgstr ""
+"Kuhakikisha wewe ni mtumishi wa serikali jaza tarakimu 7-9 za mwisho za "
+"Hundi yako (km 1234567). Bonyeza 0 kama huna namba ya hundi au kama hufanyi "
+"serikalini."
 
-#: standard input:1624
-msgid "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number."
-msgstr "Samahani, namba hiyo sio sahihi. Jaribu tena au ingiza '0' kama huna namba ya cheki."
+#: standard input:752
+msgid ""
+"Sorry but that is not a valid cheque number. Please try again or enter '0' "
+"if you do not have a cheque number."
+msgstr ""
+"Samahani, namba hiyo sio sahihi. Jaribu tena au ingiza '0' kama huna namba "
+"ya cheki."
 
-#: standard input:1629
-msgid "To verify that u r a registered health worker enter your REGISTRATION No (eg 1234) from Medical Council of Tanganyika or enter '0' if u do not have a reg no"
-msgstr "Ingiza namba yako ya usajili (k.m. 1234) kutoka Baraza la Madaktari la Tanganyika au ingiza '0' kama huna namba ya usajili"
+#: standard input:758
+msgid ""
+"To verify U are a registered health worker enter your Medical Council of "
+"Tanganyika REGISTRATION # (eg 1234). Enter '0' if U do not have a "
+"Registration Number"
+msgstr ""
+"Kuhakikisha wewe ni mfanyakazi wa afya aliyesajiliwa, jaza namba yako ya "
+"usajili ya Baraza la Madaktari la Tanganyika (km 1234). Bonyeza 0 kama huna "
+"namba."
 
-#: standard input:1633
-msgid "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number."
-msgstr "Samahani, hiyo sio namba sahihi ya usajili. Jaribu tena au ingiza '0' kama huna namba ya usajili."
+#: standard input:762
+msgid ""
+"Sorry but that is not a valid Registration Number. Please try again or enter "
+"0 if you do not have a registration number."
+msgstr ""
+"Samahani, hiyo sio namba sahihi ya usajili. Jaribu tena au ingiza '0' kama "
+"huna namba ya usajili."
 
-#: standard input:1649
-msgid "Please enter your date of birth in the following format DDMMYYYY (eg if born on 23 April 1980, enter 23041980)."
-msgstr "Tafadhali ingiza tarehe yako ya kuzaliwa: (km ikiwa ni 23 Aprili 1980, ingiza 23041980)"
+#: standard input:800
+msgid ""
+"Sorry but the registration number that you entered does not match with MCT "
+"records."
+msgstr "Samahani, namba ya usajili havifanani na taarifa za usajili zillizopo."
 
-#: standard input:1661
-msgid "Sorry but you have not entered a valid date. Please enter your date of birth in the following format DDMMYYYY (e.g. if born on 23 April 1980, enter 23041980)."
-msgstr "Samahahi, ulichoingiza sio tarehe sahihi. Tafadhali ingiza tarehe yako ya kuzaliwa: (km ikiwa ni 23 Aprili 1980, ingiza 23041980)"
-
-#: standard input:1670
-msgid "Sorry but the registration number and DOB that you have entered do not match with MCT records."
-msgstr "Samahani, namba ya usajili na tarehe ya kuzaliwa havifanani na taarifa za usajili zillizopo."
-
-#: standard input:1672
+#: standard input:802
 msgid "Enter details again"
 msgstr "Ingiza tena vielelezo"
 
-#: standard input:1673
+#: standard input:803
 msgid "End Session"
 msgstr "Achia hapa"
 
-#: standard input:1678
-msgid "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register."
-msgstr "Samahani hatuwezi kuthibitisha taarifa zako kwa sasa. Tafadhai hakikisha taarifa zako na Baraza la Madaktari na baadaye piga *149*24# kujisajili"
+#: standard input:808
+msgid ""
+"Sorry but we cannot verify you at this point. Please verify your details "
+"with MCT and dial *149*24# again to register."
+msgstr ""
+"Samahani hatuwezi kuthibitisha taarifa zako kwa sasa. Tafadhai hakikisha "
+"taarifa zako na Baraza la Madaktari na baadaye piga *149*24# kujisajili"
 
-#: standard input:1684
+#: standard input:814
 msgid "Please enter your first name."
 msgstr "Tafadhali ingiza jina lako la kwanza"
 
-#: standard input:1689
+#: standard input:819
 msgid "Please enter your surname."
 msgstr "Tafadhali ingiza jina lako la ukoo"
 
-#: standard input:1698
-msgid "Do you agree to the terms and conditions as laid out at http://www.healthnetwork.or.tz ? Your local DMO will also have a copy."
-msgstr "Unakubaliana na masharti kama yalivyo kwenye tofuti http://www.healthnetwork.or.tz ? Mganga mkuu wa wilaya yako pia atakuwa na nakala."
-
-#: standard input:1711
-msgid "We are sorry but you cannot be registered unless you agree to the terms and conditions. Are you sure you would like to end the registration process?"
-msgstr "Tunasikitika huwezi kusajiliwa ikiwa hukubaliani na masharti.Unauhakika ya kuwa unapenda kuacha kujisajili?"
-
-#: standard input:1729
-msgid "Thank you. You have almost completed your registration process. Please dial *149*24# again to complete just a few more questions."
-msgstr "Aksante. Karibu unamaliza kujisajili. Tafadhali piga *149*24# kumalizia maswali machache yaliyobaki."
-
-#: standard input:1759
+#: standard input:828
 msgid ""
-"Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n"
-"\n"
-"Please enter your district (eg Kilosa). No abbreviations please."
+"Do you agree to the terms and conditions as laid out at http://www."
+"healthnetwork.or.tz ? Your local DMO will also have a copy."
 msgstr ""
-"Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW ikishirikiana na Switchboard na Vodacom.\n"
+"Unakubaliana na masharti kama yalivyo kwenye tofuti http://www.healthnetwork."
+"or.tz ? Mganga mkuu wa wilaya yako pia atakuwa na nakala."
+
+#: standard input:841
+msgid ""
+"We are sorry but you cannot be registered unless you agree to the terms and "
+"conditions. Are you sure you would like to end the registration process?"
+msgstr ""
+"Tunasikitika huwezi kusajiliwa ikiwa hukubaliani na masharti.Unauhakika ya "
+"kuwa unapenda kuacha kujisajili?"
+
+#: standard input:859
+msgid ""
+"Thank you. You have almost completed your registration process. Please dial "
+"*149*24# again to complete just a few more questions."
+msgstr ""
+"Aksante. Karibu unamaliza kujisajili. Tafadhali piga *149*24# kumalizia "
+"maswali machache yaliyobaki."
+
+#: standard input:891
+msgid ""
+"Welcome back 2 the Health Network brought 2 U by Switchboard, Ministry of "
+"Health, MAT and Vodacom.\n"
+"\n"
+"Please enter Ur district (eg Kilosa). No abbreviations please."
+msgstr ""
+"Karibu kwenye Mtandao wa Afya unaoletwa kwako na MOHSW ikishirikiana na "
+"Switchboard na MAT na Vodacom.\n"
 "\n"
 "Ingiza jina la wilaya yako (km Kilosa). Usifupishe jina."
 
-#: standard input:1773
-#: input:1873
+#: standard input:912 input:1013
 msgid "None of the above"
 msgstr "Sio yo yote kati a hizo"
 
-#: standard input:1783
+#: standard input:922
 msgid "The district you entered cannot be found. Did you mean:"
 msgstr "Wilaya uliyoingiza haipo. Ulimaanisha:"
 
-#: standard input:1798
+#: standard input:937
 msgid "Please re-enter your district:"
 msgstr "Tafadhali ingiza tena jina la wilaya yako"
 
-#: standard input:1813
+#: standard input:952
 msgid "Please enter your facility type:"
 msgstr "Tafadhali ingiza aina ya kituo chako:"
 
-#: standard input:1859
-msgid "Please enter the official name of the facility where you primarily practice"
+#: standard input:999
+msgid ""
+"Please enter the official name of the facility where you primarily practice"
 msgstr "Tafadhali ingiza jina halali la kituo unapofanya kazi"
 
-#: standard input:1899
+#: standard input:1040
 msgid "The Facility you entered cannot be found. Did you mean:"
 msgstr "Kituo ulichoingiza hakipo. Ulimaanisha:"
 
-#: standard input:1925
+#: standard input:1067
 msgid "Please enter your specialty:"
 msgstr "Tafadhali ingiza fani yako ya taaluma:"
-
-#: standard input:1940
-msgid "Please enter your email address or 0 if you do not have an email address"
-msgstr "Tafadhali ingiza anwani yako ya barua pepe au '0' kama huna anwani ya barua pepe"
-
-#: standard input:1944
-msgid "Sorry but that is not a valid email address. Please try again or enter 0 if you do not have an email address."
-msgstr "Samahani, anwani hiyo si sahihi. Jaribu tena au ingiza '0' kama huna anwani ya barua pepe"
-
-#: standard input:1971
-msgid "Thank you for registering with The Health Network Programme. We will process your registration and confirm with you when you are registered."
-msgstr "Aksante kwa kujisajili kwenye Mtandao wa Afya. Tutashughulikia usajili wako na kukujulisha usajili wako utakapothibitishwa na Baraza."
 
 #~ msgid "more"
 #~ msgstr "Onyesha fani zaidi"

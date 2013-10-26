@@ -14,12 +14,24 @@
         "title": "Farkwa",
         "type": "Dispensary",
         "region_id": 13245,
+        "region": {
+          "parent_region_id": 19219,
+          "type_id": 3,
+          "id": 19220,
+          "title": "Ilala"
+        },
         "id": 9325
       },
       {
         "title": "Farkwa",
         "type": "Dispensary",
         "region_id": 13245,
+        "region": {
+          "parent_region_id": 21732,
+          "type_id": 5,
+          "id": 21733,
+          "title": "Mkombwe"
+        },
         "id": 9326
       },
       {

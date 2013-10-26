@@ -2,13 +2,7 @@
   "url": "http://example.com/api/health-workers",
   "method": "POST",
   "data": {
-    "birthdate": {
-      "day":1,
-      "month":1,
-      "year":1997
-    },
     "country":"TZ",
-    "email":null,
     "facility":null,
     "language":"en",
     "mct_registration_number": "1234",
