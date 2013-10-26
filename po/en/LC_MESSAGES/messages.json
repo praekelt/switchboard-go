@@ -3,7 +3,7 @@
     "project_id_version": "switchboard-go 0.2.0", 
     "report_msgid_bugs_to": "", 
     "pot_creation_date": "2013-02-02 12:16+0200", 
-    "po_revision_date": "2013-10-09 18:40-0800", 
+    "po_revision_date": "2013-10-25 22:31-0800", 
     "last_translator": "Matt Olson <molson@rubycloud.com>", 
     "language_team": "English", 
     "language": "en", 
@@ -113,21 +113,21 @@
     null, 
     "Sorry but that is not a valid Registration Number. Please try again or enter 0 if you do not have a registration number."
   ], 
-  "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number.": [
+  "Sorry but that is not a valid cheque number. Please try again or enter '0' if you do not have a cheque number.": [
     null, 
-    "Sorry but that is not a valid cheque number. Please try again of enter '0' if you do not have a cheque number."
+    "Sorry but that is not a valid cheque number. Please try again or enter '0' if you do not have a cheque number."
   ], 
   "Sorry but the registration number that you entered does not match with MCT records.": [
     null, 
     "Sorry but the registration number that you entered does not match with MCT records."
   ], 
-  "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?": [
-    null, 
-    "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?"
-  ], 
   "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register.": [
     null, 
     "Sorry but we cannot verify you at this point. Please verify your details with MCT and dial *149*24# again to register."
+  ], 
+  "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?": [
+    null, 
+    "Sorry, this service is not yet available for your CADRE. Would you like us to contact you when this service becomes available for you?"
   ], 
   "Sorry. This service is only available to Health Practitioners with a Vodacom Sim card. Please register a new Vodacom SIM and then redial this number.": [
     null, 
@@ -185,9 +185,9 @@
     null, 
     "We are sorry but you cannot be registered unless you agree to the terms and conditions. Are you sure you would like to end the registration process?"
   ], 
-  "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please.": [
+  "Welcome back 2 the Health Network brought 2 U by Switchboard, Ministry of Health, MAT and Vodacom.\n\nPlease enter Ur district (eg Kilosa). No abbreviations please.": [
     null, 
-    "Welcome back 2 the Health Network brought 2 U by Switchboard, the Ministry of Health and Vodacom.\n\nPlease enter your district (eg Kilosa). No abbreviations please."
+    "Welcome back 2 the Health Network brought 2 U by Switchboard, Ministry of Health, MAT and Vodacom.\n\nPlease enter Ur district (eg Kilosa). No abbreviations please."
   ], 
   "Welcome to the Health Network. FREE calls brought to U by Switchboard, Ministry of Health, MAT and Vodacom.\nPlease choose a language": [
     null, 
