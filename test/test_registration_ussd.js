@@ -212,7 +212,7 @@ describe("test_ussd_states_for_session_1", function() {
     });
     it("reply foo to cadre_other should go to cadre_unavailable", function () {
         check_state({current_state: "cadre_other"}, "foo", "cadre_unavailable",
-            "^Sorry but this service is not yet available for your CADRE.",
+            "^Sorry, this service is not yet available for your CADRE.",
             null,
             function (api, user) {
                 assert.equal(user.answers.cadre_other, "foo");
@@ -501,7 +501,7 @@ describe("test_sw_translation", function() {
     it("intro state should respond with translated text", function() {
         check_state({current_state: "intro", lang: "sw"}, null, "intro",
             "^Karibu Mtandao wa Afya. Upigaji BURE wa simu unaletwa " + 
-            "kwako na Switchboard, Wizara ya Afya, MAT na Vodacom.[^]" +
+            "kwako na Wizara ya Afya, Switchboard, MAT na Vodacom.[^]" +
             "Tafadhali chagua lugha"
         );
     });
